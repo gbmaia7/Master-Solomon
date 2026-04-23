@@ -257,43 +257,45 @@ export default function App() {
         </div>
       </section>
 
-      {/* O QUE VOCÊ VAI APRENDER */}
+      {/* ESTE SISTEMA É PARA VOCÊ SE */}
       <section className="py-24 px-6 relative overflow-hidden bg-primary">
         <div className="max-w-4xl mx-auto">
           <FadeIn className="text-center mb-16">
             <h2 className="font-serif text-3xl md:text-5xl mb-6 text-text-main">
-              A Tradição dos Iniciados
+              Este Sistema É para Você Se...
             </h2>
-            <p className="text-text-muted max-w-2xl mx-auto font-light leading-relaxed">
-              Três documentos. Um sistema completo. O que a Ordem transmite em silêncio, agora em formato escrito. Não é motivação. Não é teoria.
+            <p className="text-text-muted max-w-2xl mx-auto font-light leading-relaxed text-lg">
+              A Ordem não transmitia esse conhecimento para qualquer pessoa. Este documento também não é para todos.
             </p>
           </FadeIn>
 
-          <div className="flex flex-col space-y-0">
+          <div className="flex flex-col space-y-4">
             {[
-               { title: "A Armadilha do Tempo", text: "Por que trocar tempo por dinheiro é uma armadilha — e as 3 formas que os círculos fechados realmente constroem renda." },
-               { title: "Código Imobiliário", text: "A estratégia imobiliária que exige pouco capital de entrada — passo a passo, como foi transmitido dentro da Ordem." },
-               { title: "Fator Inflação", text: "Como a inflação está destruindo silenciosamente suas economias — e quais ativos usar para transformá-la em aliada." },
-               { title: "O Manual da Crise", text: "Como o patrimônio cresce nas quedas que paralisam todos os outros." },
-               { title: "Riqueza Geracional", text: "Por que 90% das famílias perdem a riqueza na terceira geração — e o princípio exato para ser os 10%." },
-               { title: "A Lei do Controle Invisível", text: "Como influenciar decisões, negociações e pessoas — sem nunca mostrar que você está fazendo isso." },
-               { title: "Blindagem Tributária", text: "Como reduzir sua carga tributária legalmente — o governo publicou as regras; a maioria nunca as leu." },
-               { title: "A Fortaleza Familiar", text: "Como blindar patrimônio com Holding e FII exclusivo para que sobreviva às próximas gerações." },
-            ].map((feature, idx) => (
+              "Você trabalha, poupa o que pode — e ainda sente que a distância entre você e o patrimônio real só aumenta",
+              "Você já leu sobre finanças e sentiu que faltava algo que os livros não dizem",
+              "Você quer que seus filhos herdem patrimônio — não só hábitos",
+              "Você sente que o sistema tributário foi feito para te prejudicar — e quer saber como os círculos fechados navegam por ele",
+              "Você acredita que a próxima crise está vindo — e quer estar do lado certo quando ela chegar",
+              "Você já perdeu uma negociação importante e só percebeu depois que a outra parte estava no controle desde o início",
+              "Você quer entender como os maçons fecham negócios dentro dos círculos fechados — e como aplicar isso fora deles",
+              "Você quer influenciar decisões e pessoas sem nunca mostrar que está fazendo isso",
+              "Você sente que falta uma rede — pessoas certas, nos lugares certos — e não sabe como entrar nela",
+              "Você quer saber como se posicionar socialmente para que as oportunidades venham até você — não o contrário",
+              "Você acredita que mentalidade e espiritualidade têm papel no que você atrai — e quer entender como a Ordem trabalha isso antes do dinheiro"
+            ].map((text, idx) => (
               <FadeIn key={idx} delay={idx * 0.05} className="w-full">
-                <div className={`p-6 md:p-8 flex gap-6 hover:bg-white/5 transition-all duration-300 ${idx === 0 ? 'border-t border-border-subtle' : ''} border-b border-border-subtle group`}>
-                  <div className="mt-1 flex-shrink-0 text-accent-gold/50 group-hover:text-accent-gold transition-colors">
-                    <div className="w-2 h-2 rotate-45 border border-current mt-1.5" />
-                  </div>
-                  <div>
-                    <h3 className="text-text-main text-lg font-serif mb-2">{feature.title}</h3>
-                    <p className="text-text-muted text-sm leading-relaxed max-w-2xl">{feature.text}</p>
-                  </div>
+                <div className="flex gap-4 md:gap-6 p-5 md:p-6 bg-secondary/20 border border-border-subtle/50 rounded-sm hover:border-accent-gold/40 hover:bg-white/[0.02] transition-colors">
+                  <div className="text-accent-gold flex-shrink-0 mt-0.5 md:mt-1 text-lg">✦</div>
+                  <p className="text-text-main text-base md:text-lg font-light leading-relaxed">{text}</p>
                 </div>
               </FadeIn>
             ))}
           </div>
+
           <FadeIn delay={0.4} className="mt-16 text-center">
+            <p className="text-text-muted italic mb-8 max-w-2xl mx-auto">
+              Este sistema é para quem está disposto a pensar diferente sobre dinheiro, poder, espiritualidade e legado.
+            </p>
             <button 
               onClick={scrollToPricing}
               className="group relative inline-flex items-center justify-center px-10 py-5 text-sm md:text-md text-primary bg-accent-gold hover:bg-accent-gold-hover transition-all duration-300 rounded-sm overflow-hidden shadow-[0_0_40px_rgba(201,168,76,0.15)]"
