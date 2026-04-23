@@ -479,9 +479,24 @@ export default function App() {
       </section>
 
       {/* FOOTER */}
-      <footer className="py-8 px-6 bg-[#050505] text-center border-t border-border-subtle">
+      <footer className="py-8 px-6 bg-[#050505] text-center border-t border-border-subtle pb-32">
          <p className="text-text-faint text-xs tracking-widest uppercase">&copy; 2026 Coleção Mestre Solomon. Todos os direitos reservados.</p>
       </footer>
+
+      {/* STICKY BOTTOM BAR */}
+      <div className="fixed bottom-0 left-0 w-full bg-[#050505] border-t border-accent-gold/40 z-50 px-4 py-4 md:py-3 shadow-[0_-10px_40px_rgba(0,0,0,0.5)]">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 md:gap-4">
+          <p className="text-text-main font-serif text-sm md:text-base text-center md:text-left flex items-center gap-2">
+            <span>🔒</span> Quando a próxima canetada vier, você vai estar pronto?
+          </p>
+          <button 
+            onClick={scrollToPricing}
+            className="w-full md:w-auto px-6 py-3.5 md:py-2.5 bg-accent-gold hover:bg-accent-gold-hover text-primary font-bold text-xs md:text-sm tracking-[0.05em] uppercase transition-all duration-300 rounded-sm whitespace-nowrap"
+          >
+            Quero Acessar o Sistema — A partir de R$27
+          </button>
+        </div>
+      </div>
 
     </div>
   );
