@@ -8,6 +8,7 @@ export default defineConfig(({mode}) => {
   return {
     base: '/',
     plugins: [react(), tailwindcss()],
+    assetsInclude: ['**/*.pdf'],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
