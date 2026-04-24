@@ -56,9 +56,8 @@ export default function PrimeiroGrau() {
                   O primeiro volume da Ordem. Como construir, preservar e multiplicar patrimônio do zero.
                 </p>
               </div>
-              <a 
-                href="/como-fazer.pdf" 
-                target="_blank" rel="noopener noreferrer"
+              <a
+                href="/arquivos/como-fazer.pdf"
                 download="Como Fazer e Investir Dinheiro Como os Maçons.pdf"
                 className="w-full md:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 text-xs font-bold text-primary bg-accent-gold hover:bg-accent-gold-hover transition-all duration-300 rounded-sm tracking-widest uppercase flex-shrink-0"
               >

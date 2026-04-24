@@ -56,8 +56,7 @@ export default function SegundoGrau() {
                   </p>
                 </div>
                 <a 
-                  href="/como-fazer.pdf" 
-                  target="_blank" rel="noopener noreferrer"
+                  href="/arquivos/como-fazer.pdf"
                   download="Como Fazer e Investir Dinheiro Como os Maçons.pdf"
                   className="w-full md:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 text-xs font-bold text-primary bg-accent-gold hover:bg-accent-gold-hover transition-all duration-300 rounded-sm tracking-widest uppercase flex-shrink-0"
                 >
@@ -80,8 +79,7 @@ export default function SegundoGrau() {
                   </p>
                 </div>
                 <a 
-                  href="/codigo-poder.pdf" 
-                  target="_blank" rel="noopener noreferrer"
+                  href="/arquivos/codigo-poder.pdf"
                   download="Codigo do Poder.pdf"
                   className="w-full md:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 text-xs font-bold text-primary bg-accent-gold hover:bg-accent-gold-hover transition-all duration-300 rounded-sm tracking-widest uppercase flex-shrink-0"
                 >
