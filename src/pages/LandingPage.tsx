@@ -107,14 +107,14 @@ export default function App() {
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <FadeIn delay={0.1}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium leading-[1.1] mb-8 text-text-main tracking-tight">
-              As Famílias que Sobreviveram ao Collor, à Hiperinflação, à Recessão de 2015 e à Pandemia — e <span className="text-gradient-gold italic font-bold">Estão Blindadas Contra o Aumento de Impostos</span>
+              O Sistema que a Maçonaria Usou para Atravessar o Collor, a Hiperinflação, a Recessão de 2015 e a Pandemia com <span className="text-gradient-gold italic font-bold">Patrimônio Intacto.</span>
             </h1>
           </FadeIn>
 
           {/* Subheadline updated */}
           <FadeIn delay={0.2}>
-            <p className="text-lg md:text-2xl text-text-muted mb-12 max-w-2xl mx-auto font-light leading-relaxed">
-              Seguiam um Sistema que Nunca Te Ensinaram. <br className="hidden md:block"/> Diante do que está vindo, decidi que parte disso não pode mais ficar oculto.
+            <p className="text-lg md:text-2xl text-text-muted mb-12 max-w-3xl mx-auto font-light leading-relaxed">
+              Cada crise do Brasil transferiu riqueza de quem não sabia para quem sabia. Com o aumento de impostos e o que está vindo, decidi que parte do que vi dentro da Ordem não pode mais ficar oculto.
             </p>
           </FadeIn>
 
